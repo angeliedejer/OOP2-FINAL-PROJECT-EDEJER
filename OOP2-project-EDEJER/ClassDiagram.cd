@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOP2_project_EDEJER.AccountSettings">
+    <Position X="18" Y="20.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="EditGeneralInfo" Type="OOP2_project_EDEJER.EditGeneralInfo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.75" Y="23.396" />
+        <Point X="18.75" Y="23.771" />
+        <Point X="17.812" Y="23.771" />
+        <Point X="17.812" Y="24.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="EditUserAcc" Type="OOP2_project_EDEJER.EditUserAcc" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.75" Y="23.396" />
+        <Point X="18.75" Y="23.771" />
+        <Point X="19.75" Y="23.771" />
+        <Point X="19.75" Y="24.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAgAAAAAACACIBAAAACFAAECAEBAAIBgABgAAwRAAEE=</HashCode>
+      <FileName>AccountSettings.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EditGeneralInfo" />
+      <Property Name="EditUserAcc" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.AdminManageBookings">
+    <Position X="14.75" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AkCAAAUABiAAABgABACAAIAGEAAAABAjCAAAAQICAQY=</HashCode>
+      <FileName>AdminManageBookings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.AdminManageFacility">
+    <Position X="9.5" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ICAEQIAAwiEAkBggLACACAmCMAAAAJQhCJAgQUIAQRY=</HashCode>
+      <FileName>AdminManageFacility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.AdminMenu">
+    <Position X="16.75" Y="11.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="AccountSettings" Type="OOP2_project_EDEJER.AccountSettings" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.5" Y="15.492" />
+        <Point X="17.5" Y="22.073" />
+        <Point X="18" Y="22.073" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="AdminManageBookings" Type="OOP2_project_EDEJER.AdminManageBookings" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.5" Y="15.492" />
+        <Point X="17.5" Y="17.375" />
+        <Point X="15.5" Y="17.375" />
+        <Point X="15.5" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ManageUsers" Type="OOP2_project_EDEJER.ManageUsers" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.5" Y="15.492" />
+        <Point X="17.5" Y="15.867" />
+        <Point X="13.75" Y="15.867" />
+        <Point X="13.75" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="BookingReports" Type="OOP2_project_EDEJER.BookingReports" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.5" Y="15.492" />
+        <Point X="17.5" Y="15.867" />
+        <Point X="12" Y="15.867" />
+        <Point X="12" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="AdminManageFacility" Type="OOP2_project_EDEJER.AdminManageFacility" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.5" Y="15.492" />
+        <Point X="17.5" Y="15.867" />
+        <Point X="10.25" Y="15.867" />
+        <Point X="10.25" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="FeedbackAdmin" Type="OOP2_project_EDEJER.FeedbackAdmin" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.5" Y="15.492" />
+        <Point X="17.5" Y="15.867" />
+        <Point X="8.5" Y="15.867" />
+        <Point X="8.5" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AYQAgAAAASAEAIAAAACAcIUCIBgBAICgABAAAyBYAAI=</HashCode>
+      <FileName>AdminMenu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AccountSettings" />
+      <Property Name="AdminManageBookings" />
+      <Property Name="ManageUsers" />
+      <Property Name="BookingReports" />
+      <Property Name="AdminManageFacility" />
+      <Property Name="FeedbackAdmin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Alerts">
+    <Position X="24.5" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIACAEAAhAAACAABECAIAQAAAAAAAAQFAEAAA=</HashCode>
+      <FileName>Alerts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.BookACourtBadminton">
+    <Position X="21" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="OOP2_project_EDEJER.BookACourtBadminton.FacilityDetails">
+        <TypeIdentifier>
+          <NewMemberFileName>BookACourtBadminton.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>/yYIcCAEAyJFoBAAKUOUAUsGaAAAYaZJgMFCQYgKKDI=</HashCode>
+      <FileName>BookACourtBadminton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.BookACourtTennis">
+    <Position X="22.75" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="OOP2_project_EDEJER.BookACourtTennis.FacilityDetails">
+        <TypeIdentifier>
+          <NewMemberFileName>BookACourtTennis.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>/yYIcCAEAyJFgBACKUOUAUsGaAAAYKZpAMFCQYgKKDI=</HashCode>
+      <FileName>BookACourtTennis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.BookingReports">
+    <Position X="11.25" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAiBggBAABACABQACAAAACAAAAAAAAQAABAA=</HashCode>
+      <FileName>BookingReports.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.CheckCourtAvailability">
+    <Position X="26.25" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ICBMACAAQWAAgBAgKAKAIAkWIAAAQAQgAJAAQQACAAI=</HashCode>
+      <FileName>CheckCourtAvailability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.CreateAccount">
+    <Position X="16.75" Y="7.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAAAYAAASAECBBAAACBAASCIAAEAAAEQAAAAQBAAAA=</HashCode>
+      <FileName>CreateAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.CustomerMenu">
+    <Position X="19.25" Y="11.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="BookACourtTennis" Type="OOP2_project_EDEJER.BookACourtTennis" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="17.031" />
+        <Point X="20" Y="17.406" />
+        <Point X="22.535" Y="17.406" Type="JumpStart" />
+        <Point X="22.701" Y="17.406" Type="JumpEnd" />
+        <Point X="23.5" Y="17.406" />
+        <Point X="23.5" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Alerts" Type="OOP2_project_EDEJER.Alerts" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="17.031" />
+        <Point X="20" Y="17.406" />
+        <Point X="22.535" Y="17.406" Type="JumpStart" />
+        <Point X="22.701" Y="17.406" Type="JumpEnd" />
+        <Point X="24.285" Y="17.406" Type="JumpStart" />
+        <Point X="24.451" Y="17.406" Type="JumpEnd" />
+        <Point X="25.25" Y="17.406" />
+        <Point X="25.25" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="AccountSettings" Type="OOP2_project_EDEJER.AccountSettings" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="17.031" />
+        <Point X="20" Y="22.073" />
+        <Point X="19.5" Y="22.073" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="BookACourtBadminton" Type="OOP2_project_EDEJER.BookACourtBadminton" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="17.031" />
+        <Point X="20" Y="17.406" />
+        <Point X="21.812" Y="17.406" />
+        <Point X="21.812" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Home" Type="OOP2_project_EDEJER.Home" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="17.031" />
+        <Point X="20" Y="17.406" />
+        <Point X="18.75" Y="17.406" />
+        <Point X="18.75" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="CheckCourtAvailability" Type="OOP2_project_EDEJER.CheckCourtAvailability" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="17.031" />
+        <Point X="20" Y="17.406" />
+        <Point X="22.535" Y="17.406" Type="JumpStart" />
+        <Point X="22.701" Y="17.406" Type="JumpEnd" />
+        <Point X="24.285" Y="17.406" Type="JumpStart" />
+        <Point X="24.451" Y="17.406" Type="JumpEnd" />
+        <Point X="27" Y="17.406" />
+        <Point X="27" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="SearchFacility" Type="OOP2_project_EDEJER.SearchFacility" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="17.031" />
+        <Point X="20" Y="17.406" />
+        <Point X="22.535" Y="17.406" Type="JumpStart" />
+        <Point X="22.701" Y="17.406" Type="JumpEnd" />
+        <Point X="24.285" Y="17.406" Type="JumpStart" />
+        <Point X="24.451" Y="17.406" Type="JumpEnd" />
+        <Point X="28.75" Y="17.406" />
+        <Point X="28.75" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ManageBookings" Type="OOP2_project_EDEJER.ManageBookings" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="17.031" />
+        <Point X="20" Y="17.406" />
+        <Point X="22.535" Y="17.406" Type="JumpStart" />
+        <Point X="22.701" Y="17.406" Type="JumpEnd" />
+        <Point X="24.285" Y="17.406" Type="JumpStart" />
+        <Point X="24.451" Y="17.406" Type="JumpEnd" />
+        <Point X="30.5" Y="17.406" />
+        <Point X="30.5" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="FeedbackRating" Type="OOP2_project_EDEJER.FeedbackRating" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="17.031" />
+        <Point X="20" Y="17.406" />
+        <Point X="22.535" Y="17.406" Type="JumpStart" />
+        <Point X="22.701" Y="17.406" Type="JumpEnd" />
+        <Point X="24.285" Y="17.406" Type="JumpStart" />
+        <Point X="24.451" Y="17.406" Type="JumpEnd" />
+        <Point X="31.289" Y="17.406" Type="JumpStart" />
+        <Point X="31.455" Y="17.406" Type="JumpEnd" />
+        <Point X="32.25" Y="17.406" />
+        <Point X="32.25" Y="17.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>hQQIAAAwAuABCJBABAGAECHiEAQBABGDABDQByRdAAI=</HashCode>
+      <FileName>CustomerMenu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Home" />
+      <Property Name="BookACourtBadminton" />
+      <Property Name="BookACourtTennis" />
+      <Property Name="Alerts" />
+      <Property Name="CheckCourtAvailability" />
+      <Property Name="SearchFacility" />
+      <Property Name="ManageBookings" />
+      <Property Name="FeedbackRating" />
+      <Property Name="AccountSettings" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.EditGeneralInfo">
+    <Position X="17" Y="24.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAEiBEAAACBQAECAABAAIEgAAABAwBEAAA=</HashCode>
+      <FileName>EditGeneralInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.EditUserAcc">
+    <Position X="19" Y="24.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAAAAASECEECBAAAAGBQAECAAAAICEEAAABQwNggAA=</HashCode>
+      <FileName>EditUserAcc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.FeedbackAdmin">
+    <Position X="7.75" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAAAMAACEAABAAAACAAgCSAAAAAAAAAEAAAQAAAAA=</HashCode>
+      <FileName>FeedbackAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.FeedbackRating">
+    <Position X="31.5" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAADAAAACgIgESACAgQAQI9+AgAQIAAAA=</HashCode>
+      <FileName>FeedbackRating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Form1">
+    <Position X="18" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="CreateAccount1" Type="OOP2_project_EDEJER.CreateAccount" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="18" Y="5.562" />
+        <Point X="17.375" Y="5.562" />
+        <Point X="17.375" Y="7.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="SignIn1" Type="OOP2_project_EDEJER.SignIn" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.5" Y="5.938" />
+        <Point X="20.062" Y="5.938" />
+        <Point X="20.062" Y="7.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQICAACAECBAAAACABACKAgAAAAAAAAQAAQBAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CreateAccount1" />
+      <Property Name="SignIn1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Home">
+    <Position X="18" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>MgAAAAAAACAAABkAAACAAQECAAAAACAEBxAAAIBQAAA=</HashCode>
+      <FileName>Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.ManageBookings">
+    <Position X="29.75" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>9ESAEAEEhSECABEQAAKCAAEGAAAAAAAjCAEAARASQAI=</HashCode>
+      <FileName>ManageBookings.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UpdateBooking" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.ManageUsers">
+    <Position X="13" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAgQAAAAiIAABAABACBAAACECAAABAgCAIAAQIAAQY=</HashCode>
+      <FileName>ManageUsers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Program" Collapsed="true">
+    <Position X="17" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.SearchFacility">
+    <Position X="28" Y="17.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ICAEQCAAQCAAgBAgKACAAAkGIAAAQAQhAJFAQQACQAI=</HashCode>
+      <FileName>SearchFacility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.SignIn">
+    <Position X="19.25" Y="7.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="AdminMenu" Type="OOP2_project_EDEJER.AdminMenu" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="10.781" />
+        <Point X="20" Y="11.156" />
+        <Point X="17.5" Y="11.156" />
+        <Point X="17.5" Y="11.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>kAAAAYAAASAECBBAAACBAASCIAAAAAAEQgAIAQBAAAA=</HashCode>
+      <FileName>SignIn.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CustomerMenu" />
+      <Property Name="AdminMenu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.UpdateBooking">
+    <Position X="29.75" Y="22.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="OOP2_project_EDEJER.UpdateBooking.FacilityDetails">
+        <TypeIdentifier>
+          <NewMemberFileName>UpdateBooking.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>vwQIJAAEByJHiFAQCEGQAANCWAAAQKIEAMACAQhIADA=</HashCode>
+      <FileName>UpdateBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Properties.Resources" Collapsed="true">
+    <Position X="18.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwEAAABUAAAAABsAAgABEQBAAQAAAAIAECAQAAAAAPw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Properties.Settings" Collapsed="true">
+    <Position X="13.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Configuration.ApplicationSettingsBase" Collapsed="true">
+    <Position X="13.75" Y="1" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="18" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

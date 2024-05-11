@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOP2_project_EDEJER.AccountSettings" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAAACACIBAAAACFAAECAEBAAIBgABgAAwRAAEE=</HashCode>
+      <FileName>AccountSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.AdminManageBookings" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkCAAAUABiAAABgABACAAIAGEAAAABAjCAAAAQICAQY=</HashCode>
+      <FileName>AdminManageBookings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.AdminManageFacility" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAEQIAAwiEAkBggLACACAmCMAAAAJQhCJAgQUIAQRY=</HashCode>
+      <FileName>AdminManageFacility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.AdminMenu" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYQAgAAAASAEAIAAAACAcIUCIBgBAICgABAAAyBYAAI=</HashCode>
+      <FileName>AdminMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Alerts" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIACAEAAhAAACAABECAIAQAAAAAAAAQFAEAAA=</HashCode>
+      <FileName>Alerts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.BookACourtBadminton" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yYIcCAEAyJFoBAAKUOUAUsGaAAAYaZJgMFCQYgKKDI=</HashCode>
+      <FileName>BookACourtBadminton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.BookACourtTennis" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yYIcCAEAyJFgBACKUOUAUsGaAAAYKZpAMFCQYgKKDI=</HashCode>
+      <FileName>BookACourtTennis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.BookingReports" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAiBggBAABACABQACAAAACAAAAAAAAQAABAA=</HashCode>
+      <FileName>BookingReports.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.CheckCourtAvailability" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICBMACAAQWAAgBAgKAKAIAkWIAAAQAQgAJAAQQACAAI=</HashCode>
+      <FileName>CheckCourtAvailability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.CreateAccount" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAYAAASAECBBAAACBAASCIAAEAAAEQAAAAQBAAAA=</HashCode>
+      <FileName>CreateAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.CustomerMenu" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQQIAAAwAuABCJBABAGAECHiEAQBABGDABDQByRdAAI=</HashCode>
+      <FileName>CustomerMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.EditGeneralInfo" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAEiBEAAACBQAECAABAAIEgAAABAwBEAAA=</HashCode>
+      <FileName>EditGeneralInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.EditUserAcc" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAASECEECBAAAAGBQAECAAAAICEEAAABQwNggAA=</HashCode>
+      <FileName>EditUserAcc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.FeedbackAdmin" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAMAACEAABAAAACAAgCSAAAAAAAAAEAAAQAAAAA=</HashCode>
+      <FileName>FeedbackAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.FeedbackRating" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAADAAAACgIgESACAgQAQI9+AgAQIAAAA=</HashCode>
+      <FileName>FeedbackRating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Form1" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQICAACAECBAAAACABACKAgAAAAAAAAQAAQBAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Home" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgAAAAAAACAAABkAAACAAQECAAAAACAEBxAAAIBQAAA=</HashCode>
+      <FileName>Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.ManageBookings" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9ESAEAEEhSECABEQAAKCAAEGAAAAAAAjCAEAARASQAI=</HashCode>
+      <FileName>ManageBookings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.ManageUsers" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQAAAAiIAABAABACBAAACECAAABAgCAIAAQIAAQY=</HashCode>
+      <FileName>ManageUsers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Program" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.SearchFacility" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAEQCAAQCAAgBAgKACAAAkGIAAAQAQhAJFAQQACQAI=</HashCode>
+      <FileName>SearchFacility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.SignIn" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAYAAASAECBBAAACBAASCIAAAAAAEQgAIAQBAAAA=</HashCode>
+      <FileName>SignIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.UpdateBooking" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>vwQIJAAEByJHiFAQCEGQAANCWAAAQKIEAMACAQhIADA=</HashCode>
+      <FileName>UpdateBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwEAAABUAAAAABsAAgABEQBAAQAAAAIAECAQAAAAAPw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2_project_EDEJER.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
